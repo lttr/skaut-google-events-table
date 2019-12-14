@@ -2,14 +2,22 @@
   "name": "skaut-google-events-table",
   "version": "1.0.0",
   "description": "Widget displays upcoming events from google calendar",
-  "main": "skaut-google-events-table.js",
-  "module": "skaut-google-events-table.js",
   "keywords": [
     "skaut",
     "google-calendar",
     "widget",
     "web-component"
   ],
+  "homepage": "https://lttr.github.io/skaut-google-events-table",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lttr/skaut-google-events-table.git"
+  },
+  "license": "MIT",
   "author": "Lukas Trumm",
-  "license": "MIT"
+  "files": [
+    "skaut-google-events-table.js"
+  ],
+  "main": "skaut-google-events-table.js",
+  "module": "skaut-google-events-table.js"
 }
