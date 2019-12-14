@@ -1,5 +1,5 @@
 {
-  "name": "skaut-google-events-table",
+  "name": "@lttr/skaut-google-events-table",
   "version": "1.0.0",
   "description": "Widget displays upcoming events from google calendar",
   "keywords": [
