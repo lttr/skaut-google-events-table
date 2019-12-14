@@ -1,0 +1,15 @@
+{
+  "name": "skaut-google-events-table",
+  "version": "1.0.0",
+  "description": "Widget displays upcoming events from google calendar",
+  "main": "skaut-google-events-table.js",
+  "module": "skaut-google-events-table.js",
+  "keywords": [
+    "skaut",
+    "google-calendar",
+    "widget",
+    "web-component"
+  ],
+  "author": "Lukas Trumm",
+  "license": "MIT"
+}

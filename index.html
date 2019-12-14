@@ -1,19 +1,43 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Termíny oddílových akcí</title>
+    <link rel="stylesheet" href="https://cdn.skauting.cz/css/style.css" />
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>wc</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <style>
+      header {
+        text-align: center;
+      }
+      main {
+        padding: 2em;
+        margin: 2em;
+        border: 1px solid gainsboro;
+        border-radius: 0.3em;
+      }
+    </style>
 
-<body>
-  <h1>wc</h1>
+    <header>
+      <h1>Termíny oddílových akcí</h1>
+      <h2>Skautské akce z Google kalendáře</h2>
+    </header>
 
-  <main></main>
-
-  <script src="script.js"></script>
-</body>
-
+    <main>
+      <!-- actual example -->
+      <script type="module" src="../skaut-google-events-table.js"></script>
+      <skaut-google-events-table
+        account="example"
+        calendarId=""
+        apiKey=""
+        exclude=""
+        allKeyword="všichni"
+        categories="vlčata,skauti,roveři"
+      ></skaut-google-events-table>
+      <!-- end of example -->
+    </main>
+  </body>
 </html>

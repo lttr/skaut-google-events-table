@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "summary": "Oddílová schůzka (všichni)",
+      "start": {
+        "dateTime": "2019-11-16T17:00:00+01:00"
+      },
+      "end": {
+        "dateTime": "2019-11-16T18:30:00+01:00"
+      }
+    },
+    {
+      "summary": "Výprava (vlčata)",
+      "start": {
+        "date": "2019-12-12T00:00:00+01:00"
+      },
+      "end": {
+        "date": "2019-12-14T00:00:00+01:00"
+      }
+    },
+    {
+      "summary": "Výprava (skauti, roveři)",
+      "start": {
+        "date": "2019-09-15T00:00:00+01:00"
+      },
+      "end": {
+        "date": "2019-09-16T00:00:00+01:00"
+      }
+    },
+    {
+      "summary": "Družinová schůzka (skauti)",
+      "start": {
+        "date": "2019-10-12T17:00:00+01:00"
+      },
+      "end": {
+        "date": "2019-10-12T18:30:00+01:00"
+      }
+    }
+  ]
+}
